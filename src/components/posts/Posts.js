@@ -16,7 +16,7 @@ export default function Posts() {
      return (
        <div>
             {
-                postsList.map(value => <div>{value.id} - {value.body}</div>)
+                postsList.map(value => <div>{value.id} - {value.body}</div>)  // TODO в окрему компоненту
             }
         </div>
     );
